@@ -1,4 +1,4 @@
-# QED, the Query Equivalence Decider/Determinator
+# QED, the Query Equivalence Decider
 
 ## Overview
 
@@ -10,7 +10,7 @@ The QED project aims to resolve SQL query equivalence efficiently. It has three 
 
 ## Usage
 
-The workflow of the project starts from the parser and ends in the prover and disprover. Currently the parser and the prover have been packaged with `Nix`, so they can be easily use like this:
+The workflow of the project starts from the parser and ends in the prover and the disprover. Currently the parser and the prover have been packaged with `Nix`, so they can be easily use like this:
 
 ```sh
 # Please have Nix installed in your system with experimental features enabled.
