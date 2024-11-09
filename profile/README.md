@@ -8,6 +8,8 @@ The QED project aims to resolve SQL query equivalence efficiently. It has three 
 - A prover that validates the equivalence of queries. The prover may produce false negative results, where the queries are equivalent but the prover cannot prove it.
 - A disprover that searches for database instances where the queries produce different results. The disprover may produce false positive results, where the queries are inequivalent but the disprover cannot find a database instance that distinguish the queries.
 
+For details of our solver, please see our [VLDB 24 paper](https://www.vldb.org/pvldb/vol17/p3602-wang.pdf).
+
 ## Usage
 
 The workflow of the project starts from the parser and ends in the prover and the disprover. Currently the parser and the prover have been packaged with `Nix`, so they can be easily use like this:
